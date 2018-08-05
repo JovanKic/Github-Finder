@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+.avatar {
+    width: 100%;
+}
+#badges {
+    text-align: center;
+    margin: 0 auto;
+}
+.card-body .col-md-9 {
+    margin-top: 2em;
+}
+@media only screen and (min-width: 1200px) {
+    #badges {
+        margin-top: 2em;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .navbar-header>a {
+        margin: auto !important;
+    }
+}
+.card-title {
+    margin: auto 0;
+}
+.btn-block {
+    margin-top: 3%;
+}
+.navbar-header a {
+    font-family: 'Kanit', sans-serif;
+    margin-left: -18%;
+    font-size: 45px;
+    padding: 3% 0;
+}
